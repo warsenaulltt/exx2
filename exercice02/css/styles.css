@@ -1,0 +1,76 @@
+/*----------------------------------------------------------------------------
+    Generic
+----------------------------------------------------------------------------*/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*------------------------------------------------------------------------------
+   Element - Base
+------------------------------------------------------------------------------*/
+
+body {
+  font-family: "Open Sans", helvetica, sans-serif;
+  background: white;
+}
+
+.wrapper {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*------------------------------------------------------------------------------
+   Element - Typographie
+------------------------------------------------------------------------------*/
+
+h1 {
+  font-size: 60px;
+  color: rgba(231, 76, 60, 1);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+  font-size: 40px;
+}
+
+/*------------------------------------------------------------------------------
+   Composantes / Modules
+------------------------------------------------------------------------------*/
+
+/* header */
+.header {
+  padding: 20px 0;
+  background-color: rgba(192, 57, 43, 1);
+}
+
+/* Section */
+.problemes {
+  padding: 60px 0;
+}
+
+.problemes .wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+/* footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(41, 128, 185, 1);
+}
+
+.footer p {
+  font-size: 24px;
+  color: rgba(52, 152, 219, 1);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
